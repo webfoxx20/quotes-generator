@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/grad.jpg");
+}
+
+.row {
+
+  height: 100vh;
+
+  .quote-container {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17rem;
+    height: 100%;
+
+    .qoutes {
+      width: min(70%, 80%);
+    }
+  }
+
+  button {
+    color: white;
+    margin-top: 20px;
+  }
+
+  #author {
+    text-align: right;
+  }
+
+}
