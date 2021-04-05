@@ -29,6 +29,10 @@ body {
   height: 100%;
 }
 
+.row .quote-container #loader {
+  display: none;
+}
+
 .row .quote-container .qoutes {
   width: 70%;
 }
