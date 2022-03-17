@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("../img/grad.jpg");
+  background-image: linear-gradient(90deg, rgba(7,177,151,1) 2%, rgba(131,198,72,1) 100%);
 }
 
 .row {
